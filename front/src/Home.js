@@ -4,7 +4,7 @@ class Home extends React.Component {
   componentDidMount() {
     const script = document.createElement("script");
 
-    script.src = "https://asciinema.org/a/41100.js";
+    script.src = "https://asciinema.org/a/2ij7njldwbi88kyc6mkeeeqn5.js";
     script.autopaly = true;
     script.loop = "loop";
     script.speed = 2;
@@ -21,9 +21,10 @@ class Home extends React.Component {
 
             <h2>Build es-next microservices on AWS Lambda!</h2>
             <div className="ui video container">
-              <script type="text/javascript" src="https://asciinema.org/a/41100.js"
-                id="asciicast-41100" data-autoplay="true"
-                data-loop="loop" data-speed="2" data-size="small"></script>
+              <script type="text/javascript"
+                src="https://asciinema.org/a/2ij7njldwbi88kyc6mkeeeqn5.js"
+                id="asciicast-2ij7njldwbi88kyc6mkeeeqn5"
+                data-autoplay="true" data-speed="1.5" data-size="small"></script>
             </div>
             <a href="/docs/getting-started.md" className="ui huge primary button">Get Started <i className="right arrow icon"></i></a>
           </div>
