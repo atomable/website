@@ -1,5 +1,4 @@
 import React from 'react';
-import Home from './Home';
 var ReactDOM = require('react-dom')
 
 export default (props) => {

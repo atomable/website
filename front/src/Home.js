@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-
+import React from 'react';
 
 class Home extends React.Component {
   componentDidMount() {
@@ -11,18 +10,6 @@ class Home extends React.Component {
     script.speed = 2;
     script.size = "big";
 
-    script.setAttribute('autopaly', true);
-    script.setAttribute('loop', "loop");
-    script.setAttribute('speed', 2);
-    script.setAttribute('size', "big");
-
-    const other = document.getElementById('asciicast-41100');
-
-    other.setAttribute('autopaly', true);
-    other.setAttribute('loop', "loop");
-    other.setAttribute('speed', 2);
-    other.setAttribute('size', "big");
-
     document.body.appendChild(script);
   }
 
@@ -30,14 +17,14 @@ class Home extends React.Component {
     return (
       <div>
         <div className="ui inverted vertical center aligned segment">
-          <div className="ui video container">
-            <script type="text/javascript" src="https://asciinema.org/a/41100.js" id="asciicast-41100" autopaly="true" loop="loop" speed="2" size="big"></script>
-          </div>
-
-
           <div className="ui text container">
 
             <h2>Build es-next microservices on AWS Lambda!</h2>
+            <div className="ui video container">
+              <script type="text/javascript" src="https://asciinema.org/a/41100.js"
+                id="asciicast-41100" data-autoplay="true"
+                data-loop="loop" data-speed="2" data-size="small"></script>
+            </div>
             <a href="/docs/getting-started.md" className="ui huge primary button">Get Started <i className="right arrow icon"></i></a>
           </div>
         </div>
