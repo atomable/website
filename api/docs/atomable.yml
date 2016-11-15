@@ -1,0 +1,12 @@
+---
+name: docs
+
+handler: docs.docs
+
+https:
+  path: docs
+  method: get
+  cors: true
+  parameters:
+  - in: query
+    name: url

@@ -1,0 +1,14 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "docs.js",
+  "scripts": {
+    "test": "mocha docs/docs.spec.js --require babel-register --preset es2015,stage-0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "showdown": "^1.5.0"
+  }
+}
